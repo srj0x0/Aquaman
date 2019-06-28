@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AppDelegate.h
 //  Aquamarine
 //
 //  Created by Sergey Dokukin on 6/28/19.
@@ -8,8 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
-
+@interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @end
-

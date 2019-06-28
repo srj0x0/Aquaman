@@ -8,23 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		61CFE3B122C638B700DA5018 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CFE3B022C638B700DA5018 /* AppDelegate.m */; };
-		61CFE3B422C638B700DA5018 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CFE3B322C638B700DA5018 /* ViewController.m */; };
 		61CFE3B622C638B800DA5018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61CFE3B522C638B800DA5018 /* Assets.xcassets */; };
 		61CFE3B922C638B800DA5018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CFE3B722C638B800DA5018 /* Main.storyboard */; };
 		61CFE3BC22C638B800DA5018 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CFE3BB22C638B800DA5018 /* main.m */; };
+		61CFE3D122C63AD500DA5018 /* BundleFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CFE3D022C63AD500DA5018 /* BundleFinder.m */; };
+		61CFE3D422C63AE100DA5018 /* DefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CFE3D322C63AE100DA5018 /* DefaultsManager.m */; };
+		61CFE3D722C65E7C00DA5018 /* ToggleAquaAppearance.sh in Resources */ = {isa = PBXBuildFile; fileRef = 61CFE3D622C6585000DA5018 /* ToggleAquaAppearance.sh */; };
+		61CFE3DD22C6635D00DA5018 /* ToggleAppearanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CFE3DC22C6635D00DA5018 /* ToggleAppearanceViewController.m */; };
+		61CFE3E122C663C800DA5018 /* DragDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CFE3E022C663C800DA5018 /* DragDropView.m */; };
+		61CFE3E522C6AB9200DA5018 /* ToggleAppearanceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CFE3E422C6AB9200DA5018 /* ToggleAppearanceModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		61CFE3AC22C638B700DA5018 /* Aquamarine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aquamarine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CFE3AC22C638B700DA5018 /* Aquaman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aquaman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CFE3AF22C638B700DA5018 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		61CFE3B022C638B700DA5018 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		61CFE3B222C638B700DA5018 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		61CFE3B322C638B700DA5018 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		61CFE3B522C638B800DA5018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61CFE3B822C638B800DA5018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61CFE3BA22C638B800DA5018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61CFE3BB22C638B800DA5018 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		61CFE3BD22C638B800DA5018 /* Aquamarine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aquamarine.entitlements; sourceTree = "<group>"; };
+		61CFE3CC22C63A6D00DA5018 /* BundleFinderService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BundleFinderService.h; sourceTree = "<group>"; };
+		61CFE3CE22C63AB800DA5018 /* DefaultsManagmentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultsManagmentService.h; sourceTree = "<group>"; };
+		61CFE3CF22C63AD500DA5018 /* BundleFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BundleFinder.h; sourceTree = "<group>"; };
+		61CFE3D022C63AD500DA5018 /* BundleFinder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BundleFinder.m; sourceTree = "<group>"; };
+		61CFE3D222C63AE100DA5018 /* DefaultsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultsManager.h; sourceTree = "<group>"; };
+		61CFE3D322C63AE100DA5018 /* DefaultsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultsManager.m; sourceTree = "<group>"; };
+		61CFE3D622C6585000DA5018 /* ToggleAquaAppearance.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ToggleAquaAppearance.sh; sourceTree = "<group>"; };
+		61CFE3DB22C6635D00DA5018 /* ToggleAppearanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToggleAppearanceViewController.h; sourceTree = "<group>"; };
+		61CFE3DC22C6635D00DA5018 /* ToggleAppearanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToggleAppearanceViewController.m; sourceTree = "<group>"; };
+		61CFE3DF22C663C800DA5018 /* DragDropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragDropView.h; sourceTree = "<group>"; };
+		61CFE3E022C663C800DA5018 /* DragDropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragDropView.m; sourceTree = "<group>"; };
+		61CFE3E322C6AB9200DA5018 /* ToggleAppearanceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToggleAppearanceModel.h; sourceTree = "<group>"; };
+		61CFE3E422C6AB9200DA5018 /* ToggleAppearanceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToggleAppearanceModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +65,7 @@
 		61CFE3AD22C638B700DA5018 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61CFE3AC22C638B700DA5018 /* Aquamarine.app */,
+				61CFE3AC22C638B700DA5018 /* Aquaman.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,17 +73,124 @@
 		61CFE3AE22C638B700DA5018 /* Aquamarine */ = {
 			isa = PBXGroup;
 			children = (
-				61CFE3AF22C638B700DA5018 /* AppDelegate.h */,
-				61CFE3B022C638B700DA5018 /* AppDelegate.m */,
-				61CFE3B222C638B700DA5018 /* ViewController.h */,
-				61CFE3B322C638B700DA5018 /* ViewController.m */,
-				61CFE3B522C638B800DA5018 /* Assets.xcassets */,
-				61CFE3B722C638B800DA5018 /* Main.storyboard */,
-				61CFE3BA22C638B800DA5018 /* Info.plist */,
-				61CFE3BB22C638B800DA5018 /* main.m */,
-				61CFE3BD22C638B800DA5018 /* Aquamarine.entitlements */,
+				61CFE3C522C638E500DA5018 /* Application */,
+				61CFE3C422C638CB00DA5018 /* Resources */,
+				61CFE3C322C638BE00DA5018 /* SupportingFiles */,
 			);
 			path = Aquamarine;
+			sourceTree = "<group>";
+		};
+		61CFE3C322C638BE00DA5018 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				61CFE3BA22C638B800DA5018 /* Info.plist */,
+				61CFE3BD22C638B800DA5018 /* Aquamarine.entitlements */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		61CFE3C422C638CB00DA5018 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61CFE3B722C638B800DA5018 /* Main.storyboard */,
+				61CFE3B522C638B800DA5018 /* Assets.xcassets */,
+				61CFE3D622C6585000DA5018 /* ToggleAquaAppearance.sh */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		61CFE3C522C638E500DA5018 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				61CFE3DA22C6634000DA5018 /* UI */,
+				61CFE3CB22C63A4B00DA5018 /* Workers */,
+				61CFE3C822C639DB00DA5018 /* Services */,
+				61CFE3C622C6390700DA5018 /* Delegate */,
+				61CFE3BB22C638B800DA5018 /* main.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		61CFE3C622C6390700DA5018 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				61CFE3AF22C638B700DA5018 /* AppDelegate.h */,
+				61CFE3B022C638B700DA5018 /* AppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		61CFE3C822C639DB00DA5018 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				61CFE3CC22C63A6D00DA5018 /* BundleFinderService.h */,
+				61CFE3CE22C63AB800DA5018 /* DefaultsManagmentService.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		61CFE3C922C639F400DA5018 /* DefaultsManager */ = {
+			isa = PBXGroup;
+			children = (
+				61CFE3D222C63AE100DA5018 /* DefaultsManager.h */,
+				61CFE3D322C63AE100DA5018 /* DefaultsManager.m */,
+			);
+			path = DefaultsManager;
+			sourceTree = "<group>";
+		};
+		61CFE3CA22C63A0500DA5018 /* BundleFinder */ = {
+			isa = PBXGroup;
+			children = (
+				61CFE3CF22C63AD500DA5018 /* BundleFinder.h */,
+				61CFE3D022C63AD500DA5018 /* BundleFinder.m */,
+			);
+			path = BundleFinder;
+			sourceTree = "<group>";
+		};
+		61CFE3CB22C63A4B00DA5018 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				61CFE3CA22C63A0500DA5018 /* BundleFinder */,
+				61CFE3C922C639F400DA5018 /* DefaultsManager */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		61CFE3D922C6633500DA5018 /* ToggleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				61CFE3DB22C6635D00DA5018 /* ToggleAppearanceViewController.h */,
+				61CFE3DC22C6635D00DA5018 /* ToggleAppearanceViewController.m */,
+				61CFE3E322C6AB9200DA5018 /* ToggleAppearanceModel.h */,
+				61CFE3E422C6AB9200DA5018 /* ToggleAppearanceModel.m */,
+			);
+			path = ToggleViewController;
+			sourceTree = "<group>";
+		};
+		61CFE3DA22C6634000DA5018 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				61CFE3E222C6AB7300DA5018 /* Views */,
+				61CFE3D922C6633500DA5018 /* ToggleViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		61CFE3DE22C663A600DA5018 /* DragDropView */ = {
+			isa = PBXGroup;
+			children = (
+				61CFE3DF22C663C800DA5018 /* DragDropView.h */,
+				61CFE3E022C663C800DA5018 /* DragDropView.m */,
+			);
+			path = DragDropView;
+			sourceTree = "<group>";
+		};
+		61CFE3E222C6AB7300DA5018 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61CFE3DE22C663A600DA5018 /* DragDropView */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,7 +210,7 @@
 			);
 			name = Aquamarine;
 			productName = Aquamarine;
-			productReference = 61CFE3AC22C638B700DA5018 /* Aquamarine.app */;
+			productReference = 61CFE3AC22C638B700DA5018 /* Aquaman.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,6 +224,11 @@
 				TargetAttributes = {
 					61CFE3AB22C638B700DA5018 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -129,6 +257,7 @@
 			files = (
 				61CFE3B622C638B800DA5018 /* Assets.xcassets in Resources */,
 				61CFE3B922C638B800DA5018 /* Main.storyboard in Resources */,
+				61CFE3D722C65E7C00DA5018 /* ToggleAquaAppearance.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +268,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61CFE3B422C638B700DA5018 /* ViewController.m in Sources */,
+				61CFE3D122C63AD500DA5018 /* BundleFinder.m in Sources */,
+				61CFE3E522C6AB9200DA5018 /* ToggleAppearanceModel.m in Sources */,
+				61CFE3DD22C6635D00DA5018 /* ToggleAppearanceViewController.m in Sources */,
 				61CFE3BC22C638B800DA5018 /* main.m in Sources */,
 				61CFE3B122C638B700DA5018 /* AppDelegate.m in Sources */,
+				61CFE3D422C63AE100DA5018 /* DefaultsManager.m in Sources */,
+				61CFE3E122C663C800DA5018 /* DragDropView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,17 +407,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Aquamarine/Aquamarine.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = B6NNMKZL33;
-				INFOPLIST_FILE = Aquamarine/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Aquamarine/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sdokukin.Aquamarine;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Aquaman;
 			};
 			name = Debug;
 		};
@@ -292,17 +424,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Aquamarine/Aquamarine.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = B6NNMKZL33;
-				INFOPLIST_FILE = Aquamarine/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Aquamarine/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sdokukin.Aquamarine;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Aquaman;
 			};
 			name = Release;
 		};
